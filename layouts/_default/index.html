@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+    <main>
+
+        <!-- page header -->
+        {{ partial "page-header-index.html" . }}
+
+        <!-- list services -->
+        {{ partial "list-services.html" . }}
+
+        <!-- list sections -->
+        {{ with .Sections }}
+            {{ range . }}
+                <div class="list-section">
+                    <!-- section title -->
+                    <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+                    <!-- list pages -->
+                    <nav class="list-grid">
+                        {{ range .Pages }}
+                            {{ if .Params.Featured }}
+                                {{ partial "list-item-tile.html" . }}
+                            {{ else }}
+                            {{ end }}
+                        {{ end }}
+                    </nav>
+                </div>
+            {{ end }}
+        {{ end }}
+
+        <!-- markdown content -->
+        {{ partial "markdown.html" . }}
+
+    </main>
+
+{{ end }}

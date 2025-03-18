@@ -1,0 +1,12 @@
+body { 
+    color: darkslategray;
+    font-family: Inter, sans-serif;
+
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 16px;
+    padding-bottom: 48px;
+    gap: 24px;
+}

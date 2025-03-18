@@ -1,0 +1,41 @@
+<header class="page-header">
+
+        <!-- image --> 
+        {{ with .Params.Image }}
+            {{ $path := . }}
+            {{ with resources.Get $path }}
+                {{ $image := .Fill "960x720 center q90 webp" }}
+                {{ $name := strings.TrimSuffix (path.Ext .Name) .Name }}
+                {{ $name_fmt := humanize $name}}
+                <img src="{{ $image.RelPermalink }}" width="480px" height="auto" alt="{{ $name_fmt }}">
+            {{ end }}
+        {{ end }}
+
+    <div>
+
+        <!-- parent -->
+        {{ with .Parent }}
+            <a href="{{ .Permalink }}">{{ .Title }}/</a>
+        {{ end }}
+        
+        <!-- title -->
+        {{ with .Title }}
+            <h1>{{ . }}</h1>
+        {{ end }}
+
+        <!-- subtitle -->
+        {{ with .Params.Subtitle }}
+            <h2>{{ . }}</h2>
+        {{ end }}
+
+        <!-- description -->
+        {{ with .Description }}
+            <p>{{ . }}</p>
+        {{ end}}
+
+        <!-- params -->
+        {{ partial "params.html" . }}
+
+    </div>
+
+</header>

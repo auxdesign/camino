@@ -1,0 +1,9 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    /*
+    background-image: url("/dot.png");
+    background-repeat: repeat;
+    */
+}

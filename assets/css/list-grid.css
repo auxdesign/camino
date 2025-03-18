@@ -1,0 +1,24 @@
+.list-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+    .list-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .list-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .list-grid {
+        grid-template-columns: 1fr;
+    }
+}

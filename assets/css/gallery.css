@@ -1,0 +1,9 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.gallery img {
+    border-radius: 8px;
+}

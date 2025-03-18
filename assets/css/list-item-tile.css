@@ -1,0 +1,15 @@
+.list-item-tile {
+    color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.list-item-tile img {
+    border-radius: 8px;
+    aspect-ratio: 1 / 1;
+}
+
+.list-item-tile img:hover {
+    filter: brightness(85%);
+}

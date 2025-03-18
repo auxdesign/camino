@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+
+<!-- head -->    
+{{ partial "head.html" . }}
+    
+    <!-- site -->
+    <body>
+
+        <!-- site header -->
+        <header class="site-header">
+
+            <!-- home -->
+            {{ with resources.Get "brand-mark.svg" }}
+                <a href="/">{{ .Content | safeHTML }}</a>
+            {{ end }}
+
+            <nav>
+
+                 <!-- nav pages -->
+                {{ range .Site.Pages }}
+                    {{ if .Params.Nav }}
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    {{ else}}
+                    {{ end }}
+                {{ end }}
+
+            </nav>
+        
+        </header>
+
+        <!-- main -->
+        {{ block "main" . }}{{ end }}
+
+        {{ partial "background.html" . }}
+
+    </body>
+
+</html>

@@ -1,0 +1,38 @@
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 16px;
+}
+
+@media only screen and (max-width: 720px) {
+    .services {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .services {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+
+.services > a {
+    text-align: center;
+    text-transform: capitalize;
+    word-wrap: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px hsl(267, 10%, 50%, .2);
+}

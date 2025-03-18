@@ -1,0 +1,16 @@
+<!-- services  -->
+{{ if .Site.Taxonomies.services }}
+    <section>
+        <h2>Our Services</h2>
+        <nav class="services">
+            {{ range $name, $taxonomy := .Site.Taxonomies.services }}
+
+                {{ with $.Site.GetPage (printf "/services/%s" $name) }}
+                    <a href="{{ .RelPermalink }}">{{ $name }}</a>
+                {{end}}
+            
+            {{end}}
+        </nav>
+    </section>
+{{ else }}
+{{ end }}

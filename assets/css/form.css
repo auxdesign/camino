@@ -1,0 +1,49 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 720px;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input, textarea, .submit {
+    color: inherit;
+    font-family: inherit;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+input:focus, textarea:focus, .submit:focus {
+    outline: solid hsl(267, 100%, 50%) 2px ;
+}
+
+textarea {
+    height: 160px;
+    resize: vertical;
+}
+
+.submit {
+    color: white;
+    font-size: inherit;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding: 16px;
+
+    background-color: hsl(267, 90%, 50%);
+    border: none;
+    border-radius: 8px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

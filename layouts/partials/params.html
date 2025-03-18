@@ -1,0 +1,32 @@
+{{ if or ( .GetTerms "services" ) ( .Params.Date ) ( .Params.Location) }}
+
+    <div class="params"> 
+
+        <!-- services -->
+        {{ with .GetTerms "services" }}
+            {{ range . }}
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ end }}
+        {{ end }}
+
+        <!-- services -->
+        {{ with .GetTerms "partners" }}
+            {{ range . }}
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ end }}
+        {{ end }}
+        
+        <!-- date -->
+        {{ with .Params.Date }}
+            <p>{{ .Month }} {{ .Year }}</p>
+        {{ end }}
+        
+        <!-- location -->
+        {{ with .Params.Location }}
+            <p>{{ . }}<p>
+        {{ end }}
+
+    </div>
+
+{{ else }}
+{{ end }}

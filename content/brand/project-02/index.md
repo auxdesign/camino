@@ -1,0 +1,13 @@
++++
+title = "Project 2"
+services = [ "service 1", "service 2", "service 3" ]
+date = 2024-05-01
+location = "Denver, Colorado"
+featured = true
++++
+
+{{< gallery
+
+    image="gallery/"
+
+>}}

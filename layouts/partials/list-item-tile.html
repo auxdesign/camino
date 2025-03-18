@@ -1,0 +1,15 @@
+<a class="list-item-tile" href="{{ .Permalink }}">
+
+    <!-- image -->
+    {{ range first 1 (.Resources.ByType "image") }}
+        {{ $image_fmt := .Fill "720x720 webp q90" }}
+        {{ $name := strings.TrimSuffix (path.Ext .Name) .Name }}
+        {{ $name_fmt := humanize $name}}
+        <img src="{{ $image_fmt.RelPermalink }}" width="240px" height="auto" alt="{{ $name_fmt }}">
+    {{ end }}
+
+    <!-- title -->
+    {{ .Title }}
+
+
+</a>

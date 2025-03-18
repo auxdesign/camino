@@ -1,0 +1,20 @@
+.background img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+    opacity: .35;
+  }
+  
+.background > .overlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -5;
+  background-image:
+    linear-gradient( hsl(267, 50%, 95%), transparent, hsl(267, 50%, 95%));
+}

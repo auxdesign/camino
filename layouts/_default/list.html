@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+    <main>
+
+        <!-- page header -->
+        {{ partial "page-header-list.html" . }} 
+
+        <!-- list pages -->
+        {{ with .Data.Pages }}
+            <nav class="list-grid">
+                {{ range . }}
+                    {{ partial "list-item-tile.html" . }}
+                {{ end }}
+            </nav>
+        {{ end }}
+
+        <!-- markdown content -->
+        {{ partial "markdown.html" . }}
+
+    </main>
+
+{{ end }}

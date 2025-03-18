@@ -1,0 +1,12 @@
+<div class="background">
+
+    <!-- image -->
+    {{ with resources.Get "background.svg" }}
+        <img src="{{ .RelPermalink }}">
+    {{ end }}
+    
+    <!-- overlay -->
+    <div class="overlay"></div>
+
+
+</div>

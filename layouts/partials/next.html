@@ -1,0 +1,10 @@
+{{ with .PrevInSection }}
+
+    <div class="list-section">
+    
+        <a href="{{ .Permalink }}"><h3>Next:</h3></a>
+        {{ partial "list-item-tile.html" . }}
+
+    </div>
+
+{{ end }}
