@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Paul on Camino Creative</title>
-    <link>http://localhost:1313/partners/paul/</link>
-    <description>Recent content in Paul on Camino Creative</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/partners/paul/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Project 1</title>
-      <link>http://localhost:1313/brand/project-01/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/brand/project-01/</guid>
-      <description>&lt;div class=&#34;gallery&#34;&gt;  &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;http://localhost:1313/brand/project-01/gallery/stock-01_hu8907098196274557914.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 01&#34;&gt;&#xA;            &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;http://localhost:1313/brand/project-01/gallery/stock-02_hu2384708646395422403.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 02&#34;&gt;&#xA;            &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;http://localhost:1313/brand/project-01/gallery/stock-03_hu16722316402551864414.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 03&#34;&gt;&#xA;            &#xA;        &#xA;    &lt;/div&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Paul on Camino Creative</title><link>https://camino-creative.com/partners/paul/</link><description>Recent content in Paul on Camino Creative</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://camino-creative.com/partners/paul/index.xml" rel="self" type="application/rss+xml"/><item><title>Project 1</title><link>https://camino-creative.com/brand/project-01/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://camino-creative.com/brand/project-01/</guid><description>&lt;div class="gallery"> 
+ 
+ 
+ 
+ 
+ 
+ &lt;img src="https://camino-creative.com/brand/project-01/gallery/stock-01_hu8907098196274557914.webp" width="960px" height="auto" alt="Gallery stock 01">
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;img src="https://camino-creative.com/brand/project-01/gallery/stock-02_hu2384708646395422403.webp" width="960px" height="auto" alt="Gallery stock 02">
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;img src="https://camino-creative.com/brand/project-01/gallery/stock-03_hu16722316402551864414.webp" width="960px" height="auto" alt="Gallery stock 03">
+ 
+ 
+ &lt;/div></description></item></channel></rss>
