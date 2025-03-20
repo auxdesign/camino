@@ -6,14 +6,6 @@
     <description>Recent content in GridX on Camino Creative</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/clients/gridx/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Advise</title>
-      <link>http://localhost:1313/projects/advise/</link>
-      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/advise/</guid>
-      <description>&lt;p&gt;This is the body&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
