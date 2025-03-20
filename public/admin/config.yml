@@ -33,3 +33,10 @@ collections:
         media_library:
           config:
             multiple: true
+      - label: 'Cover Image'
+        name: 'cover'
+        widget: 'image'
+        required: false
+        media_library:
+          config:
+            media_folder: 'AAA/'
