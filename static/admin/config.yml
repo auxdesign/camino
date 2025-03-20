@@ -29,12 +29,14 @@ collections:
         name: 'cover'
         widget: 'image'
         media_folder: ''
+        choose_url: false
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
       - label: 'Gallery'
         name: 'gallery'
         widget: 'image'
         required: false
         media_folder: 'gallery/'
+        choose_url: false
         media_library:
           config:
             multiple: true
