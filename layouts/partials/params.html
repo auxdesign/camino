@@ -2,6 +2,20 @@
 
     <div class="params"> 
 
+        <!-- contributors -->
+        {{ with .GetTerms "contributors" }}
+            {{ range . }}
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ end }}
+        {{ end }}
+         
+        <!-- clients -->
+        {{ with .GetTerms "clients" }}
+            {{ range . }}
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ end }}
+        {{ end }}
+
         <!-- services -->
         {{ with .GetTerms "services" }}
             {{ range . }}
@@ -9,8 +23,8 @@
             {{ end }}
         {{ end }}
 
-        <!-- services -->
-        {{ with .GetTerms "partners" }}
+        <!-- deliverables -->
+        {{ with .GetTerms "deliverables" }}
             {{ range . }}
                 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             {{ end }}
@@ -21,11 +35,6 @@
             <p>{{ .Month }} {{ .Year }}</p>
         {{ end }}
         
-        <!-- location -->
-        {{ with .Params.Location }}
-            <p>{{ . }}<p>
-        {{ end }}
-
     </div>
 
 {{ else }}

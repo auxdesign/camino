@@ -2,5 +2,7 @@ baseURL = 'https://caminocreative.netlify.app/'
 languageCode = 'en-us'
 title = 'Camino Creative'
 [taxonomies]
+  contributor = 'contributors'
+  client = 'clients'
   service = 'services'
-  partner = 'partners'
+  deliverables = 'deliverable'
