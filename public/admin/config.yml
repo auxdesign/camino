@@ -1,3 +1,4 @@
+site_url: https://caminocreative.netlify.app/
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
@@ -12,10 +13,16 @@ collections:
     media_folder: 'gallery/'
     public_folder: 'gallery/'
     create: true
+    editor:
+      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Gallery', name: 'gallery', widget: 'image' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string', required: false }
+      - { label: "Contributors", name: "contributors", widget: "select", multiple: true, options: ["Ben", "Paul"] }
+      - { label: 'Client', name: 'client', widget: 'string' }
+      - { label: "Services", name: "services", widget: "select", multiple: true, options: ["User Experience Design", "Web Development", "Branding", "Copywriting", "Product Development"] }
+      - { label: "Deliverables", name: "deliverables", widget: "select", multiple: true, options: ["Web App", "Mobile App", "Website", "Ad", "Collateral", "Content"] }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+      - { label: 'Gallery', name: 'gallery', widget: 'image', required: false }

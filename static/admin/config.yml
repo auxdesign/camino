@@ -18,7 +18,6 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string', required: false }
-      - { label: 'Date', name: 'date', date_format: "DD.MM.YYYY", widget: 'datetime' }
       - { label: "Contributors", name: "contributors", widget: "select", multiple: true, options: ["Ben", "Paul"] }
       - { label: 'Client', name: 'client', widget: 'string' }
       - { label: "Services", name: "services", widget: "select", multiple: true, options: ["User Experience Design", "Web Development", "Branding", "Copywriting", "Product Development"] }

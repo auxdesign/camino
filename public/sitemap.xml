@@ -34,7 +34,11 @@
     <loc>http://localhost:1313/services/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/partners/</loc>
+    <loc>http://localhost:1313/clients/</loc>
+  </url><url>
+    <loc>http://localhost:1313/contributors/</loc>
+  </url><url>
+    <loc>http://localhost:1313/deliverable/</loc>
   </url><url>
     <loc>http://localhost:1313/success/</loc>
   </url>
