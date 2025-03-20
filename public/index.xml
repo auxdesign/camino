@@ -1,119 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Camino Creative Co. on Camino Creative</title><link>https://caminocreative.netlify.app/</link><description>Recent content in Camino Creative Co. on Camino Creative</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://caminocreative.netlify.app/index.xml" rel="self" type="application/rss+xml"/><item><title>Inquiries</title><link>https://caminocreative.netlify.app/inquiries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://caminocreative.netlify.app/inquiries/</guid><description>&lt;form action="https://public.herotofu.com/v1/6d5e5930-cfa4-11ee-b355-cff7da8a1e7a" method="post" accept-charset="UTF-8">
- 
- 
- &lt;div>
- &lt;label for="name">Name&lt;/label>
- &lt;input name="Name" id="name" type="text" />
- &lt;/div>
- 
- 
- &lt;div>
- &lt;label for="email">Email*&lt;/label>
- &lt;input name="Email" id="email" type="email" required oninvalid="setCustomValidity('This field is required')" />
- &lt;/div>
- 
- 
- &lt;div>
- &lt;label for="message">Message*&lt;/label>
- &lt;textarea name="Message" id="message" type="text" required oninvalid="setCustomValidity('This field is required')" >&lt;/textarea>
- &lt;/div>
- 
- 
- &lt;div>
- &lt;input class="submit" type="submit" value="Send Message" />
- &lt;/div>
-
-&lt;/form></description></item><item><title>Project 1</title><link>https://caminocreative.netlify.app/web/project-01/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://caminocreative.netlify.app/web/project-01/</guid><description>&lt;div class="gallery"> 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-01/gallery/stock-01_hu8907098196274557914.webp" width="960px" height="auto" alt="Gallery stock 01">
- 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-01/gallery/stock-02_hu2384708646395422403.webp" width="960px" height="auto" alt="Gallery stock 02">
- 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-01/gallery/stock-03_hu16722316402551864414.webp" width="960px" height="auto" alt="Gallery stock 03">
- 
- 
- &lt;/div></description></item><item><title>Project 2</title><link>https://caminocreative.netlify.app/web/project-02/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://caminocreative.netlify.app/web/project-02/</guid><description>&lt;div class="gallery"> 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-02/gallery/stock-01_hu8907098196274557914.webp" width="960px" height="auto" alt="Gallery stock 01">
- 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-02/gallery/stock-02_hu2384708646395422403.webp" width="960px" height="auto" alt="Gallery stock 02">
- 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-02/gallery/stock-03_hu16722316402551864414.webp" width="960px" height="auto" alt="Gallery stock 03">
- 
- 
- &lt;/div></description></item><item><title>Project 3</title><link>https://caminocreative.netlify.app/web/project-03/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://caminocreative.netlify.app/web/project-03/</guid><description>&lt;div class="gallery"> 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-03/gallery/stock-01_hu8907098196274557914.webp" width="960px" height="auto" alt="Gallery stock 01">
- 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-03/gallery/stock-02_hu2384708646395422403.webp" width="960px" height="auto" alt="Gallery stock 02">
- 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-03/gallery/stock-03_hu16722316402551864414.webp" width="960px" height="auto" alt="Gallery stock 03">
- 
- 
- &lt;/div></description></item><item><title>Project 4</title><link>https://caminocreative.netlify.app/web/project-04/</link><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate><guid>https://caminocreative.netlify.app/web/project-04/</guid><description>&lt;div class="gallery"> 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-04/gallery/stock-01_hu8907098196274557914.webp" width="960px" height="auto" alt="Gallery stock 01">
- 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-04/gallery/stock-02_hu2384708646395422403.webp" width="960px" height="auto" alt="Gallery stock 02">
- 
- 
- 
- 
- 
- 
- &lt;img src="https://caminocreative.netlify.app/web/project-04/gallery/stock-03_hu16722316402551864414.webp" width="960px" height="auto" alt="Gallery stock 03">
- 
- 
- &lt;/div></description></item><item><title>Success</title><link>https://caminocreative.netlify.app/success/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://caminocreative.netlify.app/success/</guid><description>&lt;h2 id="thanks-for-your-message">Thanks for your message&lt;/h2>
-&lt;p>We&amp;rsquo;ll be in touch as soon as possible.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Camino Creative Co. on Camino Creative</title>
+    <link>https://camino.netlify.app/</link>
+    <description>Recent content in Camino Creative Co. on Camino Creative</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://camino.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inquiries</title>
+      <link>https://camino.netlify.app/inquiries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://camino.netlify.app/inquiries/</guid>
+      <description>&lt;form action=&#34;https://public.herotofu.com/v1/6d5e5930-cfa4-11ee-b355-cff7da8a1e7a&#34; method=&#34;post&#34; accept-charset=&#34;UTF-8&#34;&gt;&#xA;    &#xA;    &#xA;    &lt;div&gt;&#xA;        &lt;label for=&#34;name&#34;&gt;Name&lt;/label&gt;&#xA;        &lt;input name=&#34;Name&#34; id=&#34;name&#34; type=&#34;text&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &#xA;    &#xA;    &lt;div&gt;&#xA;        &lt;label for=&#34;email&#34;&gt;Email*&lt;/label&gt;&#xA;        &lt;input name=&#34;Email&#34; id=&#34;email&#34; type=&#34;email&#34; required oninvalid=&#34;setCustomValidity(&#39;This field is required&#39;)&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &#xA;    &#xA;    &lt;div&gt;&#xA;        &lt;label for=&#34;message&#34;&gt;Message*&lt;/label&gt;&#xA;        &lt;textarea name=&#34;Message&#34; id=&#34;message&#34; type=&#34;text&#34; required oninvalid=&#34;setCustomValidity(&#39;This field is required&#39;)&#34; &gt;&lt;/textarea&gt;&#xA;    &lt;/div&gt;&#xA;    &#xA;    &#xA;    &lt;div&gt;&#xA;        &lt;input class=&#34;submit&#34; type=&#34;submit&#34; value=&#34;Send Message&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;/form&gt;</description>
+    </item>
+    <item>
+      <title>Project 1</title>
+      <link>https://camino.netlify.app/web/project-01/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://camino.netlify.app/web/project-01/</guid>
+      <description>&lt;div class=&#34;gallery&#34;&gt;  &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-01/gallery/stock-01_hu8907098196274557914.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 01&#34;&gt;&#xA;            &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-01/gallery/stock-02_hu2384708646395422403.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 02&#34;&gt;&#xA;            &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-01/gallery/stock-03_hu16722316402551864414.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 03&#34;&gt;&#xA;            &#xA;        &#xA;    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Project 2</title>
+      <link>https://camino.netlify.app/web/project-02/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://camino.netlify.app/web/project-02/</guid>
+      <description>&lt;div class=&#34;gallery&#34;&gt;  &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-02/gallery/stock-01_hu8907098196274557914.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 01&#34;&gt;&#xA;            &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-02/gallery/stock-02_hu2384708646395422403.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 02&#34;&gt;&#xA;            &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-02/gallery/stock-03_hu16722316402551864414.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 03&#34;&gt;&#xA;            &#xA;        &#xA;    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Project 3</title>
+      <link>https://camino.netlify.app/web/project-03/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://camino.netlify.app/web/project-03/</guid>
+      <description>&lt;div class=&#34;gallery&#34;&gt;  &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-03/gallery/stock-01_hu8907098196274557914.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 01&#34;&gt;&#xA;            &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-03/gallery/stock-02_hu2384708646395422403.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 02&#34;&gt;&#xA;            &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-03/gallery/stock-03_hu16722316402551864414.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 03&#34;&gt;&#xA;            &#xA;        &#xA;    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Project 4</title>
+      <link>https://camino.netlify.app/web/project-04/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://camino.netlify.app/web/project-04/</guid>
+      <description>&lt;div class=&#34;gallery&#34;&gt;  &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-04/gallery/stock-01_hu8907098196274557914.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 01&#34;&gt;&#xA;            &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-04/gallery/stock-02_hu2384708646395422403.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 02&#34;&gt;&#xA;            &#xA;        &#xA;             &#xA;                &#xA;                &#xA;                &#xA;                &lt;img src=&#34;https://camino.netlify.app/web/project-04/gallery/stock-03_hu16722316402551864414.webp&#34; width=&#34;960px&#34; height=&#34;auto&#34; alt=&#34;Gallery stock 03&#34;&gt;&#xA;            &#xA;        &#xA;    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Success</title>
+      <link>https://camino.netlify.app/success/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://camino.netlify.app/success/</guid>
+      <description>&lt;h2 id=&#34;thanks-for-your-message&#34;&gt;Thanks for your message&lt;/h2&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll be in touch as soon as possible.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
