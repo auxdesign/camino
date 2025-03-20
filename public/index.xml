@@ -6,7 +6,7 @@
     <description>Recent content in Camino Creative Co. on Camino Creative</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Mar 2025 17:56:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inquiries</title>
@@ -14,13 +14,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/inquiries/</guid>
       <description>&lt;form action=&#34;https://public.herotofu.com/v1/6d5e5930-cfa4-11ee-b355-cff7da8a1e7a&#34; method=&#34;post&#34; accept-charset=&#34;UTF-8&#34;&gt;&#xA;    &#xA;    &#xA;    &lt;div&gt;&#xA;        &lt;label for=&#34;name&#34;&gt;Name&lt;/label&gt;&#xA;        &lt;input name=&#34;Name&#34; id=&#34;name&#34; type=&#34;text&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &#xA;    &#xA;    &lt;div&gt;&#xA;        &lt;label for=&#34;email&#34;&gt;Email*&lt;/label&gt;&#xA;        &lt;input name=&#34;Email&#34; id=&#34;email&#34; type=&#34;email&#34; required oninvalid=&#34;setCustomValidity(&#39;This field is required&#39;)&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &#xA;    &#xA;    &lt;div&gt;&#xA;        &lt;label for=&#34;message&#34;&gt;Message*&lt;/label&gt;&#xA;        &lt;textarea name=&#34;Message&#34; id=&#34;message&#34; type=&#34;text&#34; required oninvalid=&#34;setCustomValidity(&#39;This field is required&#39;)&#34; &gt;&lt;/textarea&gt;&#xA;    &lt;/div&gt;&#xA;    &#xA;    &#xA;    &lt;div&gt;&#xA;        &lt;input class=&#34;submit&#34; type=&#34;submit&#34; value=&#34;Send Message&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;/form&gt;</description>
-    </item>
-    <item>
-      <title>Test projects</title>
-      <link>http://localhost:1313/projects/2025-03-18-test-projects/</link>
-      <pubDate>Tue, 18 Mar 2025 17:56:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/2025-03-18-test-projects/</guid>
-      <description>&lt;p&gt;Test&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project 1</title>
