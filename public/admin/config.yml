@@ -4,15 +4,19 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'projects'
-    label: 'projects'
-    folder: 'content/projects'
+  - name: projects
+    label: Projects
+    label_singular: 'Project'
+    folder: content/projects
+    path: '{{slug}}/_index'
+    media_folder: ''
+    public_folder: ''
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Cover Image'
+        name: 'image'
+        widget: 'image'
