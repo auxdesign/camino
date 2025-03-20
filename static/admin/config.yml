@@ -25,6 +25,10 @@ collections:
       - { label: 'Deliverables', name: 'deliverables', widget: 'select', multiple: true, options: ["Web App", "Mobile App", "Website", "Ad", "Collateral", "Content"], required: false }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Featured', name: 'featured', widget: 'boolean', default: false }
+      - label: 'Cover Image'
+        name: 'cover'
+        widget: 'image'
+        media_folder: ''
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
       - label: 'Gallery'
         name: 'gallery'
@@ -34,8 +38,3 @@ collections:
         media_library:
           config:
             multiple: true
-      - label: 'Cover Image'
-        name: 'cover'
-        widget: 'image'
-        required: false
-        media_folder: ''
