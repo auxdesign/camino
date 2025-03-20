@@ -1,4 +1,4 @@
-baseURL = 'https://camino.netlify.app/'
+baseURL = 'https://caminocreative.netlify.app/'
 languageCode = 'en-us'
 title = 'Camino Creative'
 [taxonomies]
