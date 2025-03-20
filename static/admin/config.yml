@@ -10,8 +10,8 @@ collections:
     label_singular: 'Project'
     folder: content/projects
     path: '{{slug}}/index'
-    media_folder: 'gallery/'
-    public_folder: 'gallery/'
+    media_folder: ''
+    public_folder: ''
     create: true
     editor:
       preview: false
@@ -19,10 +19,10 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string', required: false }
       - { label: 'Date', name: 'date', date_format: 'YYYY-MM-DD', widget: 'datetime' }
-      - { label: 'Contributors', name: 'contributors', widget: 'select', multiple: true, options: ["Ben", "Paul"] }
-      - { label: 'Client', name: 'clients', widget: 'string' }
-      - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ["User Experience Design", "Web Development", "Branding", "Copywriting", "Product Development"] }
-      - { label: 'Deliverables', name: 'deliverables', widget: 'select', multiple: true, options: ["Web App", "Mobile App", "Website", "Ad", "Collateral", "Content"] }
+      - { label: 'Contributors', name: 'contributors', widget: 'select', multiple: true, options: ["Ben", "Paul"], required: false }
+      - { label: 'Client', name: 'clients', widget: 'string', required: false }
+      - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ["User Experience Design", "Web Development", "Branding", "Copywriting", "Product Development"], required: false }
+      - { label: 'Deliverables', name: 'deliverables', widget: 'select', multiple: true, options: ["Web App", "Mobile App", "Website", "Ad", "Collateral", "Content"], required: false }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Featured', name: 'featured', widget: 'boolean', default: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
@@ -30,6 +30,7 @@ collections:
         name: 'gallery'
         widget: 'image'
         required: false
+        media_folder: 'gallery/'
         media_library:
           config:
             multiple: true
