@@ -37,4 +37,4 @@ collections:
         name: 'cover'
         widget: 'image'
         required: false
-        media_folder: 'AAA/'
+        media_folder: '/'
