@@ -28,7 +28,7 @@ collections:
       - label: 'Cover Image'
         name: 'cover'
         widget: 'image'
-        media_folder: ''
+        media_folder: 'cover/'
         choose_url: false
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
       - label: 'Gallery'
