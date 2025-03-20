@@ -20,7 +20,7 @@ collections:
       - { label: 'Subtitle', name: 'subtitle', widget: 'string', required: false }
       - { label: 'Date', name: 'date', date_format: "YYYY-MM-DD", widget: 'datetime' }
       - { label: "Contributors", name: "contributors", widget: "select", multiple: true, options: ["Ben", "Paul"] }
-      - { label: 'Client', name: 'client', widget: 'string' }
+      - { label: 'Client', name: 'clients', widget: 'string' }
       - { label: "Services", name: "services", widget: "select", multiple: true, options: ["User Experience Design", "Web Development", "Branding", "Copywriting", "Product Development"] }
       - { label: "Deliverables", name: "deliverables", widget: "select", multiple: true, options: ["Web App", "Mobile App", "Website", "Ad", "Collateral", "Content"] }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
