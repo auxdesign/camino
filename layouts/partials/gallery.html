@@ -1,0 +1,8 @@
+<div class="gallery">
+    {{ range .Resources.Match "gallery/*" }}
+        {{ $image := .Resize "1920x webp q90" }}
+        {{ $name := strings.TrimSuffix (path.Ext .Name) .Name }}
+        {{ $name_fmt := humanize $name}}
+        <img src="{{ $image.RelPermalink }}" width="960px" height="auto" alt="{{ $name_fmt }}">
+    {{ end }}
+</div>

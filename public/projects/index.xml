@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Camino Creative</title><link>https://caminocreative.netlify.app/projects/</link><description>Recent content in Projects on Camino Creative</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 19 Mar 2025 19:26:00 +0000</lastBuildDate><atom:link href="https://caminocreative.netlify.app/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Test project 3</title><link>https://caminocreative.netlify.app/projects/test-project-3/</link><pubDate>Wed, 19 Mar 2025 19:26:00 +0000</pubDate><guid>https://caminocreative.netlify.app/projects/test-project-3/</guid><description>&lt;p>This is the body&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Camino Creative</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Camino Creative</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
