@@ -1,3 +1,4 @@
+site_url: https://caminocreative.netlify.app/
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
@@ -12,6 +13,8 @@ collections:
     media_folder: 'gallery/'
     public_folder: 'gallery/'
     create: true
+    editor:
+      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'datetime' }
@@ -19,5 +22,3 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Gallery', name: 'gallery', widget: 'image' }
       - { label: "Featured", name: "featured", widget: "boolean", default: false }
-
-      

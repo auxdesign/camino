@@ -19,5 +19,3 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Gallery', name: 'gallery', widget: 'image' }
       - { label: "Featured", name: "featured", widget: "boolean", default: false }
-
-      

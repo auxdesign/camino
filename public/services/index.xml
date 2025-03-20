@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on Camino Creative</title>
-    <link>https://camino.netlify.app/services/</link>
+    <link>http://localhost:1313/services/</link>
     <description>Recent content in Services on Camino Creative</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://camino.netlify.app/services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Service 1</title>
-      <link>https://camino.netlify.app/services/service-1/</link>
+      <link>http://localhost:1313/services/service-1/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://camino.netlify.app/services/service-1/</guid>
+      <guid>http://localhost:1313/services/service-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Service 2</title>
-      <link>https://camino.netlify.app/services/service-2/</link>
+      <link>http://localhost:1313/services/service-2/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://camino.netlify.app/services/service-2/</guid>
+      <guid>http://localhost:1313/services/service-2/</guid>
       <description></description>
     </item>
     <item>
       <title>Service 3</title>
-      <link>https://camino.netlify.app/services/service-3/</link>
+      <link>http://localhost:1313/services/service-3/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://camino.netlify.app/services/service-3/</guid>
+      <guid>http://localhost:1313/services/service-3/</guid>
       <description></description>
     </item>
   </channel>
