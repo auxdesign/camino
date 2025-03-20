@@ -9,8 +9,8 @@ collections:
     label_singular: 'Project'
     folder: content/projects
     path: '{{slug}}/_index'
-    media_folder: ''
-    public_folder: ''
+    media_folder: 'gallery/'
+    public_folder: 'gallery/'
     create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
