@@ -30,7 +30,6 @@ collections:
         name: 'gallery'
         widget: 'image'
         required: false
-        default: "static/stock-01.jpg"
         media_folder: 'gallery/'
         media_library:
           config:
