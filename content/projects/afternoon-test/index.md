@@ -4,7 +4,7 @@ subtitle: Subtitle
 date: 2025-03-01
 contributors:
   - Ben
-client: GridX
+clients: GridX
 services:
   - Web Development
   - Branding

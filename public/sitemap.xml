@@ -19,7 +19,13 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/clients/</loc>
+    <lastmod>2025-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/contributors/</loc>
+    <lastmod>2025-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/clients/gridx/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
@@ -51,8 +57,6 @@
   </url><url>
     <loc>http://localhost:1313/services/service-3/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/clients/</loc>
   </url><url>
     <loc>http://localhost:1313/deliverable/</loc>
   </url><url>
