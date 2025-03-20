@@ -13,5 +13,6 @@ deliverables:
   - Website
 description: This is the description
 featured: true
+gallery: gallery/stock-01.jpg
 ---
 This is the heading
