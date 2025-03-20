@@ -1,18 +1,16 @@
 ---
-title: Afternoon test
-subtitle: Subtitle
-date: 2025-03-01
+title: Advise
+subtitle: Utility Customer Management
+date: 2025-03-20
 contributors:
   - Ben
 clients: GridX
 services:
   - Web Development
-  - Branding
 deliverables:
   - Mobile App
-  - Collateral
 description: This is the description
 featured: true
-gallery: gallery/stock-01.jpg
+gallery: gallery/image-20250311-142215.png
 ---
-Here is the body!
+This is the body
