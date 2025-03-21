@@ -1,6 +1,6 @@
 ---
 title: Empower
-subtitle: Customer Insight Widgetes
+subtitle: Customer Insight Widgets
 date: 2025-03-21
 contributors:
   - Ben
