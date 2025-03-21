@@ -1,6 +1,6 @@
 ---
-title: Explore
-subtitle: Clean Energy Calculator
+title: Analyze
+subtitle: Utility Rate Analysis
 date: 2025-03-21
 contributors:
   - Ben
