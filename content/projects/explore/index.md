@@ -1,6 +1,6 @@
 ---
-title: Explore
-subtitle: Clean Energy Calculator
+title: Empower
+subtitle: Customer Insight Widgetes
 date: 2025-03-21
 contributors:
   - Ben
