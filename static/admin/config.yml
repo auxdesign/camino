@@ -21,13 +21,14 @@ collections:
       - { label: 'Date', name: 'date', date_format: 'YYYY-MM-DD', widget: 'datetime' }
       - { label: 'Contributors', name: 'contributors', widget: 'select', multiple: true, options: ["Ben", "Paul"], required: false }
       - { label: 'Client', name: 'clients', widget: 'string', required: false }
-      - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ["User Experience Design", "Web Development", "Branding", "Copywriting", "Product Development"], required: false }
-      - { label: 'Deliverables', name: 'deliverables', widget: 'select', multiple: true, options: ["Web App", "Mobile App", "Website", "Ad", "Collateral", "Content"], required: false }
+      - { label: 'Services', name: 'services', widget: 'select', multiple: true, options: ["User Experience Design", "Copywriting", "Branding", "Marketing", "Documentation" ], required: false }
+      - { label: 'Deliverables', name: 'deliverables', widget: 'select', multiple: true, options: ["Web App", "Mobile App", "Website", "Campaign", "Collateral", "Content"], required: false }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Featured', name: 'featured', widget: 'boolean', default: false }
       - label: 'Cover Image'
         name: 'cover'
         widget: 'image'
+        required: false
         media_folder: 'cover/'
         choose_url: false
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
