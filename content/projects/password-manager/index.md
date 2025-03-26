@@ -3,7 +3,7 @@ title: Password Manager
 date: 2025-03-21
 contributors:
   - Ben
-clients: GridX
+clients: JumpCloud
 services:
   - User Experience Design
 deliverables:
