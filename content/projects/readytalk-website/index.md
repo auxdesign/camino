@@ -8,6 +8,7 @@ clients: ReadyTalk
 services:
   - Marketing
   - Branding
+  - User Experience Design
 deliverables:
   - Website
 featured: true
