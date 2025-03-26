@@ -4,7 +4,7 @@ subtitle: Publishing Website
 date: 2025-03-26
 contributors:
   - Ben
-clients: ReadyTalk
+clients: Science for the People
 services:
   - User Experience Design
   - Branding
